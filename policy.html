@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EqualMath Privacy Policy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E40AF',
+                        neutral: '#F3F4F6',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-balance {
+                text-wrap: balance;
+            }
+            .section-fade {
+                transition: opacity 0.3s ease-in-out;
+            }
+            .section-fade:hover {
+                opacity: 0.95;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <header class="bg-gradient-to-r from-primary to-secondary text-white shadow-lg">
+        <div class="container mx-auto px-4 py-12 md:py-20">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">EqualMath Privacy Policy</h1>
+                <p class="text-lg md:text-xl opacity-90">Protecting your privacy is our priority</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+            <!-- Policy dates section -->
+            <div class="bg-neutral p-6 border-b border-gray-100">
+                <div class="flex flex-col md:flex-row justify-between gap-4">
+                    <div>
+                        <p class="text-sm text-gray-500">Last updated</p>
+                        <p class="font-medium">August 20, 2025</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">Last effective date</p>
+                        <p class="font-medium">August 20, 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Policy sections -->
+            <div class="p-6 md:p-8 space-y-8">
+                <!-- Section 1 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-database"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">1. Data collection</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            EqualMath (version 1.0.1) is a completely local application that does not collect any personally identifiable information. The app does not collect your name, email address, contact information, or device location information. All operations are completed on your device, and no data is transmitted to the server.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 2 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-hdd-o"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">2. Data storage</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            All user-created data, including geometric shapes, calculation processes, and settings, are stored in the local SQLite database of your device. These data are completely retained on your device and will not be uploaded to any cloud service, nor will they be accessed by developers or any third parties. If you uninstall the app, all locally stored data will be permanently deleted.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 3 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-picture-o"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">3. Access to photo albums</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            The app only needs to access your photo album in the following situations: when you choose to export geometric shapes as images and save them to the photo album, or when you choose to import images from the photo album into the app. The app will not access your photo album in the background, nor will it collect or upload any of your photos. All access to the photo album is only performed with your explicit action. Images uploaded to the app will be stored in the user's local SQLite database, and users can delete them at any time or delete them along with the app upon uninstallation.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 4 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">4. Data security</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            We place great importance on your data security: all data is stored encrypted locally on the device, and the app does not contain any advertisements or analytical tracking. No third-party SDKs will access your data. Although the app itself does not transmit data, we recommend that you keep your device operating system updated, use device passwords or biometric protection, and avoid installing apps on untrusted devices.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 5 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-child"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">5. Children's privacy</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            This app is suitable for users of all ages, but we pay special attention to children's privacy: the app does not collect any personal information from children, has no social functions or user interaction, and all content is educational geometry drawing tools. Children under 13 should use this app under parental guidance.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 6 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-refresh"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">6. Policy updates</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            We may occasionally update this Privacy Policy. The updated policy will be prominently displayed within the app, including the new update date. By continuing to use the app, you are accepting the updated policy.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Section 7 -->
+                <section class="section-fade">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-primary/10 text-primary rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">7. Contact Us</h2>
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-gray-700 leading-relaxed text-balance">
+                            If you have any questions regarding this Privacy Policy, please contact: 
+                            <a href="mailto:hongtao_developer@icloud.com" class="text-primary hover:text-secondary transition-colors font-medium">
+                                hongtao_developer@icloud.com
+                            </a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-4 py-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-gray-400">&copy; 2025 EqualMath. All rights reserved.</p>
+                <p class="text-sm text-gray-500 mt-2">This privacy policy applies to EqualMath version 1.0.1</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling for anchor links if needed in the future
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add fade-in animation for sections when they come into view
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
