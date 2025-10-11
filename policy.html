@@ -208,42 +208,47 @@
     
     <div class="content">
       <div class="date-info">
-        <div><strong>Last updated:</strong> August 25, 2025</div>
-        <div><strong>Last effective date:</strong> August 25, 2025</div>
+        <div><strong>Last updated:</strong> October 11, 2025</div>
+        <div><strong>Last effective date:</strong> October 11, 2025</div>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-database"></i> 1. Data Collection</h2>
-        <p>EqualMath (version 1.0.3) is a completely local application that does not collect any personally identifiable information. The app does not collect your name, email address, contact information, or device location information. All operations are completed on your device, and no data is transmitted to the server.</p>
+        <h2><i class="fas fa-database"></i> 1. Data Collection and Synchronization</h2>
+        <p>Hengdeng Math (Version 1.2.1) primarily operates as a local application and also offers optional iCloud synchronization. The app does not collect your name, email address, contact information, or device location. When you enable iCloud synchronization, the following data will be securely synced via Apple’s CloudKit service: geometric figures and calculation processes. This data is solely used for synchronization between devices logged into your iCloud account and will not be used for any other purposes.</p>
       </div>
       
       <div class="section">
         <h2><i class="fas fa-hdd"></i> 2. Data Storage</h2>
-        <p>All user-created data, including geometric shapes, calculation processes, and settings, are stored in the local SQLite database of your device. These data are completely retained on your device and will not be uploaded to any cloud service, nor will they be accessed by developers or any third parties. If you uninstall the app, all locally stored data will be permanently deleted.</p>
+        <p>All user-created data is stored by default in the local SQLite database of your device. When you enable the iCloud synchronization feature, the data will be securely stored in your iCloud account through Apple’s CloudKit service. This data is protected by end-to-end encryption, and only you can access it. If you choose not to use iCloud synchronization, all data will remain entirely local to your device. When you uninstall the app, locally stored data will be deleted, but data already synced to iCloud will be retained in accordance with your iCloud settings.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-images"></i> 3. Access to Photo Albums</h2>
-        <p>The app only needs to access your photo album in the following situations: when you choose to export geometric shapes as images and save them to the photo album, or when you choose to import images from the photo album into the app. The app will not access your photo album in the background, nor will it collect or upload any of your photos. All access to the photo album is only performed with your explicit action. Images uploaded to the app will be stored in the user's local SQLite database, and users can delete them at any time or delete them along with the app upon uninstallation.</p>
+        <h2><i class="fas fa-cogs"></i> 3. iCloud Data Management</h2>
+        <p>You can enable or disable the iCloud feature in the settings page of this app, or fully control iCloud synchronization through your device’s system settings: In iOS Settings, tap Apple ID → iCloud → Show All Apps, find this app, and toggle the synchronization feature on or off. After disabling iCloud synchronization, new data will only be stored locally, while data already synced to iCloud will continue to be retained in your iCloud account. You can manage this data via iCloud.com.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-shield-alt"></i> 4. Data Security</h2>
-        <p>We place great importance on your data security: all data is stored encrypted locally on the device, and the app does not contain any advertisements or analytical tracking. No third-party SDKs will access your data. Although the app itself does not transmit data, we recommend that you keep your device operating system updated, use device passwords or biometric protection, and avoid installing apps on untrusted devices.</p>
+        <h2><i class="fas fa-images"></i> 4. Photo Library Access</h2>
+        <p>The app only requires access to your photo library in the following scenarios: when you choose to export geometric figures as images and save them to the photo library, or when you select to import images from the photo library into the app. The app will not access your photo library in the background, nor will it collect or upload any of your photos. All photo library access is conducted solely with your explicit action. Images uploaded to the app are stored by default in the user’s local SQLite database; if iCloud synchronization is enabled, these images will also be securely synced to your iCloud account.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-child"></i> 5. Children's Privacy</h2>
-        <p>This app is suitable for users of all ages, but we pay special attention to children's privacy: the app does not collect any personal information from children, has no social functions or user interaction, and all content is educational geometry drawing tools. Children under 13 should use this app under parental guidance.</p>
+        <h2><i class="fas fa-shield-alt"></i> 5. Data Security</h2>
+        <p>We attach great importance to your data security: Local data is encrypted and stored on your device, and the transmission and storage of iCloud data are protected by Apple’s encryption technology. The app does not contain any advertisements or analytics tracking, and no third-party SDKs will access your data. Although we have implemented strict security measures, we recommend that you keep your device’s operating system updated, protect your device with a password or biometric authentication, and only install the app on trusted devices.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-sync-alt"></i> 6. Policy Updates</h2>
-        <p>We may occasionally update this Privacy Policy. The updated policy will be prominently displayed within the app, including the new update date. By continuing to use the app, you are accepting the updated policy.</p>
+        <h2><i class="fas fa-child"></i> 6. Children’s Privacy</h2>
+        <p>This app is suitable for users of all age groups, and we pay special attention to children’s privacy: The app does not collect any personal information of children, has no social functions or user interaction features, and all content serves as an educational geometric drawing tool. Children under the age of 13 should use this app under parental guidance, and parents can manage their children’s iCloud synchronization settings through the system settings.</p>
+      </div>
+      
+      <div class="section">
+        <h2><i class="fas fa-sync-alt"></i> 7. Policy Updates</h2>
+        <p>We may occasionally update this Privacy Policy to reflect changes in features. The updated policy will be made available in a prominent location within the app, including the new update date. Continued use of the app indicates your acceptance of the updated policy.</p>
       </div>
       
       <div class="contact-info">
-        <h2><i class="fas fa-envelope"></i> 7. Contact Us</h2>
+        <h2><i class="fas fa-envelope"></i> 8. Contact Us</h2>
         <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
         <a href="mailto:hongtao_developer@icloud.com" class="email-link">
           <i class="fas fa-paper-plane"></i> hongtao_developer@icloud.com
@@ -253,7 +258,7 @@
     
     <footer>
       <p>© 2025 EqualMath. All rights reserved.</p>
-      <p>This privacy policy applies to EqualMath version 1.0.3 and above</p>
+      <p>This privacy policy applies to EqualMath version 1.2.1 and above</p>
     </footer>
   </div>
 </body>
