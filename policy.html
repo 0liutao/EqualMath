@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EqualMath Privacy Policy</title>
+  <title>Hengdeng Math Privacy Policy</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     /* 基础重置与变量 */
@@ -185,6 +185,7 @@
     
     .section {
       animation: fadeIn 0.6s ease forwards;
+      opacity: 0;
     }
     
     .section:nth-child(1) { animation-delay: 0.1s; }
@@ -194,6 +195,18 @@
     .section:nth-child(5) { animation-delay: 0.5s; }
     .section:nth-child(6) { animation-delay: 0.6s; }
     .section:nth-child(7) { animation-delay: 0.7s; }
+    .section:nth-child(8) { animation-delay: 0.8s; }
+    .section:nth-child(9) { animation-delay: 0.9s; }
+    .section:nth-child(10) { animation-delay: 1.0s; }
+    .section:nth-child(11) { animation-delay: 1.1s; }
+    
+    /* 高亮重要信息 */
+    .highlight {
+      background-color: rgba(52, 152, 219, 0.1);
+      padding: 10px 15px;
+      border-left: 4px solid var(--primary-color);
+      margin: 15px 0;
+    }
   </style>
 </head>
 <body>
@@ -202,54 +215,115 @@
       <div class="logo">
         <i class="fas fa-drafting-compass"></i>
       </div>
-      <h1>EqualMath Privacy Policy</h1>
+      <h1>Hengdeng Math Privacy Policy</h1>
       <p class="subtitle">Protecting your privacy is our priority</p>
     </header>
     
     <div class="content">
       <div class="date-info">
-        <div><strong>Last updated:</strong> October 11, 2025</div>
-        <div><strong>Last effective date:</strong> October 11, 2025</div>
+        <div><strong>Last Updated:</strong> December 05, 2025</div>
+        <div><strong>Effective Date:</strong> December 05, 2025</div>
       </div>
       
       <div class="section">
         <h2><i class="fas fa-database"></i> 1. Data Collection and Synchronization</h2>
-        <p>Hengdeng Math (Version 1.2.1) primarily operates as a local application and also offers optional iCloud synchronization. The app does not collect your name, email address, contact information, or device location. When you enable iCloud synchronization, the following data will be securely synced via Apple’s CloudKit service: geometric figures and calculation processes. This data is solely used for synchronization between devices logged into your iCloud account and will not be used for any other purposes.</p>
+        <p>Hengdeng Math (Version 2.3.0) runs primarily as a local application and also offers optional iCloud synchronization. The app does not collect your name, email address, contact information, or device location.</p>
+        <div class="highlight">
+          <p>When you enable iCloud synchronization, the following data will be securely synced via Apple's CloudKit service: geometric figures, calculation processes. This data is only used for synchronization between your devices logged into the same iCloud account and is not used for any other purposes.</p>
+        </div>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-hdd"></i> 2. Data Storage</h2>
-        <p>All user-created data is stored by default in the local SQLite database of your device. When you enable the iCloud synchronization feature, the data will be securely stored in your iCloud account through Apple’s CloudKit service. This data is protected by end-to-end encryption, and only you can access it. If you choose not to use iCloud synchronization, all data will remain entirely local to your device. When you uninstall the app, locally stored data will be deleted, but data already synced to iCloud will be retained in accordance with your iCloud settings.</p>
+        <h2><i class="fas fa-credit-card"></i> 2. Subscription and Payment Processing</h2>
+        <p>This app provides subscription services through the Apple App Store. All payment processing is handled by Apple; we do not collect or store your payment information (such as credit card numbers, payment passwords, etc.).</p>
+        <p>When purchasing a subscription, the App Store provides transaction records, and we only receive anonymous subscription status information (e.g., validity, expiration date) via the RevenueCat service to provide subscription features. We do not associate your purchase information with personal identity information.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-cogs"></i> 3. iCloud Data Management</h2>
-        <p>You can enable or disable the iCloud feature in the settings page of this app, or fully control iCloud synchronization through your device’s system settings: In iOS Settings, tap Apple ID → iCloud → Show All Apps, find this app, and toggle the synchronization feature on or off. After disabling iCloud synchronization, new data will only be stored locally, while data already synced to iCloud will continue to be retained in your iCloud account. You can manage this data via iCloud.com.</p>
+        <h2><i class="fas fa-hdd"></i> 3. Data Storage</h2>
+        <p>All user-created data is stored by default in the local SQLite database on your device. When you enable iCloud synchronization, data will be securely stored in your iCloud account via Apple's CloudKit service.</p>
+        <div class="highlight">
+          <p>This data is protected by end-to-end encryption and is only accessible to you. If you choose not to use iCloud synchronization, all data remains entirely local on your device.</p>
+        </div>
+        <p>Uninstalling the app will delete locally stored data, but data already synced to iCloud will be retained according to your iCloud settings.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-images"></i> 4. Photo Library Access</h2>
-        <p>The app only requires access to your photo library in the following scenarios: when you choose to export geometric figures as images and save them to the photo library, or when you select to import images from the photo library into the app. The app will not access your photo library in the background, nor will it collect or upload any of your photos. All photo library access is conducted solely with your explicit action. Images uploaded to the app are stored by default in the user’s local SQLite database; if iCloud synchronization is enabled, these images will also be securely synced to your iCloud account.</p>
+        <h2><i class="fas fa-cloud"></i> 4. iCloud Data Management</h2>
+        <p>You can toggle iCloud functionality in the app's settings page, or fully control iCloud synchronization through your device's system settings:</p>
+        <div class="highlight">
+          <p>Go to iOS Settings → tap Apple ID → iCloud → Show All Apps, find this app and toggle synchronization on or off.</p>
+        </div>
+        <p>After disabling iCloud synchronization, new data will only be stored locally, and data already synced to iCloud will remain in your iCloud account. You can manage this data via iCloud.com.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-shield-alt"></i> 5. Data Security</h2>
-        <p>We attach great importance to your data security: Local data is encrypted and stored on your device, and the transmission and storage of iCloud data are protected by Apple’s encryption technology. The app does not contain any advertisements or analytics tracking, and no third-party SDKs will access your data. Although we have implemented strict security measures, we recommend that you keep your device’s operating system updated, protect your device with a password or biometric authentication, and only install the app on trusted devices.</p>
+        <h2><i class="fas fa-images"></i> 5. Photo Library Access</h2>
+        <p>The app only requests access to your photo library in the following scenarios:</p>
+        <ul>
+          <li>When you choose to export geometric figures as images to save to the photo library</li>
+          <li>When you choose to import images from the photo library into the app</li>
+        </ul>
+        <div class="highlight">
+          <p>The app does not access your photo library in the background, nor does it collect or upload any of your photos. All photo library access occurs only with your explicit action.</p>
+        </div>
+        <p>Images uploaded to the app are stored by default in the user's local SQLite database; if iCloud synchronization is enabled, these images will also be securely synced to your iCloud account.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-child"></i> 6. Children’s Privacy</h2>
-        <p>This app is suitable for users of all age groups, and we pay special attention to children’s privacy: The app does not collect any personal information of children, has no social functions or user interaction features, and all content serves as an educational geometric drawing tool. Children under the age of 13 should use this app under parental guidance, and parents can manage their children’s iCloud synchronization settings through the system settings.</p>
+        <h2><i class="fas fa-cogs"></i> 6. Subscription Management</h2>
+        <p>You can manage your subscription through Apple's subscription management system:</p>
+        <div class="highlight">
+          <p>Open iOS Settings → tap your Apple ID → Subscriptions → find this app to manage.</p>
+        </div>
+        <p>You can cancel your subscription at any time; after cancellation, the subscription will remain valid until the end of the current cycle, after which it will automatically downgrade to the free version. The free version still allows use of basic features, but some advanced features will be restricted.</p>
       </div>
       
       <div class="section">
-        <h2><i class="fas fa-sync-alt"></i> 7. Policy Updates</h2>
-        <p>We may occasionally update this Privacy Policy to reflect changes in features. The updated policy will be made available in a prominent location within the app, including the new update date. Continued use of the app indicates your acceptance of the updated policy.</p>
+        <h2><i class="fas fa-shield-alt"></i> 7. Data Security</h2>
+        <p>We attach great importance to your data security:</p>
+        <ul>
+          <li>Local data is encrypted and stored on the device</li>
+          <li>iCloud data transmission and storage are protected by Apple's encryption technology</li>
+          <li>The app contains no ads or analytics tracking, and no third-party SDKs access your data</li>
+          <li>Subscription information is processed through Apple and RevenueCat's secure services</li>
+        </ul>
+        <div class="highlight">
+          <p>Although we have implemented strict security measures, we recommend keeping your device operating system updated, protecting your device with a passcode or biometrics, and only installing apps on trusted devices.</p>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2><i class="fas fa-child"></i> 8. Children's Privacy</h2>
+        <p>This app is suitable for users of all ages, but we pay special attention to children's privacy:</p>
+        <div class="highlight">
+          <p>The app does not collect any children's personal information, has no social features or user interaction, and all content is an educational geometric drawing tool.</p>
+        </div>
+        <p>Children under 13 should use this app under parental guidance, and parents can manage children's iCloud synchronization and subscription purchases through system settings (using Family Sharing purchase features).</p>
+      </div>
+      
+      <div class="section">
+        <h2><i class="fas fa-handshake"></i> 9. Third-Party Services</h2>
+        <p>This app uses the following third-party services:</p>
+        <ul>
+          <li><strong>RevenueCat:</strong> For managing subscription status; does not collect personal identity information</li>
+          <li><strong>Apple CloudKit:</strong> For iCloud data synchronization</li>
+          <li><strong>Apple App Store:</strong> For processing subscription payments</li>
+        </ul>
+        <p>Each of these services has its own privacy policy, and we recommend reviewing the relevant service's privacy terms.</p>
+      </div>
+      
+      <div class="section">
+        <h2><i class="fas fa-sync-alt"></i> 10. Policy Updates</h2>
+        <p>We may occasionally update this privacy policy to reflect feature changes. The updated policy will be prominently displayed within the app with a new update date.</p>
+        <div class="highlight">
+          <p>Continued use of the app constitutes acceptance of the updated policy.</p>
+        </div>
       </div>
       
       <div class="contact-info">
-        <h2><i class="fas fa-envelope"></i> 8. Contact Us</h2>
-        <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
+        <h2><i class="fas fa-envelope"></i> 11. Contact Us</h2>
+        <p>If you have any questions about this privacy policy or data synchronization features, please contact:</p>
         <a href="mailto:hongtao_developer@icloud.com" class="email-link">
           <i class="fas fa-paper-plane"></i> hongtao_developer@icloud.com
         </a>
@@ -257,9 +331,33 @@
     </div>
     
     <footer>
-      <p>© 2025 EqualMath. All rights reserved.</p>
-      <p>This privacy policy applies to EqualMath version 1.2.1 and above</p>
+      <p>© 2025 Hengdeng Math. All rights reserved.</p>
+      <p>This privacy policy applies to Hengdeng Math version 2.3.0 and above</p>
     </footer>
   </div>
+
+  <script>
+    // 添加一些交互效果
+    document.addEventListener('DOMContentLoaded', function() {
+      // 为所有章节标题添加点击交互效果
+      const sectionHeaders = document.querySelectorAll('h2');
+      
+      sectionHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+          const section = this.parentElement;
+          section.classList.toggle('active');
+        });
+      });
+      
+      // 为邮箱链接添加确认提示
+      const emailLink = document.querySelector('.email-link');
+      emailLink.addEventListener('click', function(e) {
+        const confirmed = confirm('You are about to open your email client to contact us. Continue?');
+        if (!confirmed) {
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
 </body>
 </html>
